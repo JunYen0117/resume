@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/css_reset.css">
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+        <div class="left_profile">
+            <figure class="avatar">
+                <!-- 大頭貼*2 -->
+                <div class="real_avatar"></div>
+                <div class="comic_avatar"></div>
+            </figure>
+            <div class="basic_info">
+                <address class="address">
+                    <span>
+                        <i class="fas fa-map-marker-alt fa-fw"></i>
+                    </span>
+                    桃園市
+                </address>
+                <div class="tel">
+                    <span>
+                        <i class="fas fa-mobile-alt fa-fw"></i>
+                    </span>
+                    0972029732
+                </div>
+                <div class="email">
+                    <span>
+                        <i class="fas fa-envelope fa-fw"></i>
+                    </span>
+                    relife12345@gmail.com
+                </div>
+            </div>
+            <div class="other_info">
+                <a href="https://www.facebook.com/blackrelife" target="_blank">
+                    <span>
+                        <i class="fab fa-facebook fa-2x"></i>
+                        <!-- <i class="fa-brands fa-facebook fa-xl"></i> -->
+                    </span>
+                </a>
+                <a href="https://github.com/JunYen0117" target="_blank">
+                    <span>
+                        <i class="fab fa-github fa-2x"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="right_profile">
+            <div class="intro_background">
+                <h3>李俊彥 Li-Jun-yen</h3>
+                <ul>
+                    <h4>近況經歷：</h4>
+                    <li>六角學院學員 | 2022中壢資策會就業班證照</li>
+                </ul>
+                <ul>
+                    <h4>個性描述：</h4>
+                    <li>MBTI人格測驗屬於ISTJ人格</li>
+                    <li>個性屬於文靜、細心。對於有一定程序的工作流程，熟悉了以後，就不容易犯錯</li>
+                </ul>
+                <p>Hello，我是俊彥。目前正在尋找，前端工程師的工作機會</p>
+            </div>
+        </div>
+    </header>
+    <section class="main_skill">
+        <h2 class="title">技能</h2>
+        <div class="card_area">
+            <ul class="card">
+                <h3>排版</h3>
+                <li>HTML | CSS</li>
+                <li>RWD</li>
+                <li>Bootstrap</li>
+            </ul>
+            <ul class="card">
+                <h3>語言、框架</h3>
+                <li>Javascript</li>
+                <li>jQuery</li>
+            </ul>
+            <ul class="card">
+                <h3>其他</h3>
+                <li>Git</li>
+                <li>MySQL</li>
+            </ul>
+            <ul class="card">
+                <h3>其他專業</h3>
+                <li>TQC中打：55字/分鐘<br>（嘸蝦米）</li>
+                <li>TQC英打：34字/分鐘</li>
+                <li>英文 TOEIC-695</li>
+            </ul>
+        </div>
+    </section>
+    <section class="timeline">
+        <h2 class="title">經歷</h2>
+        <div class="timeline_area">
+            <div>
+                <div class="circle"></div>
+                <div class="time first_item">
+                學習 2022－至今
+                </div>
+            </div>
+            <article>
+                <h3>六角學院學員<br>2022中壢資策會就業班</h3>
+            </article>
+            <div>
+                <div class="circle"></div>
+                <div class="time">
+                工作 2021－2021
+                </div>
+            </div>
+            <article>
+                <h3>台灣銀行 行政助理</h3>
+            </article>
+            <div>
+                <div class="circle"></div>
+                <div class="time">
+                就學 2014－2020
+                </div>
+            </div>
+            <article>
+                <h3>政治大學 歷史學系 碩士 肄業</h3>
+            </article>
+            <div>
+                <div class="circle"></div>
+                <div class="time">
+                就學 2009－2013
+                </div>
+            </div>
+            <article>
+                <h3>嘉義大學 應用歷史系 學士 畢業</h3>
+            </article>
+        </div>
+    </section>
+    <section class="collection">
+        <h2 class="title">作品集</h2>
+        <div class="collection_area">
+            <div class="collection_area_left">
+                <h3>登入註冊、TodoList(CRUD)</h3>
+                <ul class="ms-4">
+                    <li class="my-2">具有註冊、登入、登出的功能</li>
+                    <li class="my-2">需註冊才能進入TodoList頁面</li>
+                    <li class="my-2">TodoList在中間input欄位輸入後可以按「全部」、「待完成」、「已完成」渲染不同的畫面</li>
+                    <li class="my-2">TodoList的項目，在checkbox打勾後，可切換項目：待完成、已完成的狀態</li>
+                    <li class="my-2">右下方「清除已完成項目」，可一次刪除多筆資料</li>
+                    <li class="my-2">帳號保存的期間為一天</li>
+                </ul>
+                <a class="btn_enter_web mb-3" role="button" href="https://junyen0117.github.io/hexschool_js_homework/login_signup.html" target="_blank">進入網頁</a>
+            </div>
+            <figure class="collection_area_right">
+                <div class="background" id="click_carousel" data-bs-toggle="modal" data-bs-target="#exampleModal"></div>
+                <figcaption>點圖片預覽</figcaption>
+            </figure>
+        </div>
+
+    </section>
+
+    <!-- 輪播系統 -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+        <div class="modal-content w-100 h-100">
+            <div class="modal-body w-100 h-100">
+                <!-- 輪播牆 --><!-- data-bs-interval下方這個屬性控制不要輪播 -->
+                <div id="carouselExampleControls" class="carousel slide w-100 h-100" data-bs-ride="carousel" data-bs-interval="false">
+                    <div class="carousel-inner w-100 h-100">
+                    <div class="carousel-item active" data-num="0">
+                        <img src="./img/loginsignup_desktop.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-num="1">
+                        <img src="./img/loginsignup_mobile.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-num="2">
+                        <img src="./img/Todolist_desktop.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-num="3">
+                        <img src="./img/Todolist_mobile.png" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="modal_footer">
+                <figcaption class="carousel_text none" data-num="0">電腦版：註冊登入(1/4)</figcaption>
+                <figcaption class="carousel_text none" data-num="1">手機版：註冊成功(2/4)</figcaption>
+                <figcaption class="carousel_text none" data-num="2">電腦版：TodoList(3/4)</figcaption>
+                <figcaption class="carousel_text none" data-num="3">手機版：TodoList(4/4)</figcaption>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    <script src="./bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+    <script src="./js/all.js"></script>
+
+</body>
+</html>
