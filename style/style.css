@@ -47,6 +47,7 @@ header{
     display: none;
 }
 .fadeout{
+    -webkit-animation: fadeout 1s forwards;
     animation: fadeout 1s forwards;
 }
 @keyframes fadeout {
@@ -54,10 +55,11 @@ header{
     100%{opacity: 0;}
 }
 @-webkit-keyframes fadeout {
-    0%{opacity: 1;}
-    100%{opacity: 0;}
+    0%{-webkit-opacity: 1;}
+    100%{-webkit-opacity: 0;}
 }
 .fadein{
+    -webkit-animation: fadein 1s forwards;
     animation: fadein 1s forwards;
 }
 @keyframes fadein {
@@ -65,8 +67,8 @@ header{
     100%{opacity: 1;}
 }
 @-webkit-keyframes fadein {
-    0%{opacity: 0;}
-    100%{opacity: 1;}
+    0%{-webkit-opacity: 0;}
+    100%{-webkit-opacity: 1;}
 }
 .basic_info{
     width: 230px;
