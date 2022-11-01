@@ -70,6 +70,19 @@ header{
     0%{-webkit-opacity: 0;}
     100%{-webkit-opacity: 1;}
 }
+/* 小螢幕取消動畫效果 */
+@media screen and (max-width: 768px){
+    .fadeout{
+        -webkit-animation: none;
+        animation: none;
+        opacity: 0;
+    }
+    .fadein{
+        -webkit-animation: none;
+        animation: none;
+        opacity: 1;
+    }
+}
 .basic_info{
     width: 230px;
     margin: 20px auto;
