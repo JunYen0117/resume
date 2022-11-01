@@ -124,7 +124,6 @@ header{
     margin: 0 auto;
     margin-top: 15px;
     border-radius: 10px;
-    font-weight: bold;
 }
 .intro_background h3{
     font-size: 2rem;
@@ -136,11 +135,14 @@ header{
     /* font-size: 1.25rem; */
     padding: 0px 0px 20px 20px;
 }
+.intro_background h4{
+    font-weight: bold;
+}
 .intro_background ul>li, .intro_background ul>h4{
     padding-bottom: 8px;
 }
 .intro_background p{
-    /* font-size: 1.25rem; */
+    font-weight: bold;
     padding: 0px 0px 20px 20px;
 }
 @media screen and (max-width: 800px){
@@ -161,6 +163,12 @@ header{
     }
     .intro_background h3{
         text-align: center;
+    }
+    .intro_background ul li{
+        font-size: 0.85rem;
+    }
+    .intro_background p{
+        font-size: 0.85rem;
     }
 }
 
@@ -184,6 +192,7 @@ header{
     border-radius: 10px;
     box-shadow: 0 0 8px #c9d5f1;
     margin-bottom: 10px;
+    padding: 10px;
 }
 .main_skill .card_area .card h3{
     width: 80%;
@@ -256,7 +265,7 @@ header{
 }
 @media screen and (max-width: 800px){
     .timeline_area{
-        grid-template-columns: 40% 60%;
+        grid-template-columns: 47% 53%;
     }
     
     .timeline_area .time{
@@ -295,7 +304,7 @@ header{
     margin: 10px 0 10px 10px;
 }
 .collection_area_left li {
-    font-size: 1.25rem;
+    font-size: 1rem;
     list-style: circle;
 }
 .collection_area_left>.btn_enter_web{
@@ -328,6 +337,10 @@ header{
 @media screen and (max-width: 800px){
     .collection_area{
         grid-template-columns: 1fr;
+    }
+    .collection_area_left li {
+        font-size: 0.85rem;
+        list-style: circle;
     }
     .collection_area_right>.background{
         height: 50vw;
