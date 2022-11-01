@@ -9,10 +9,7 @@ realAvatar.addEventListener('click',()=>{
         realAvatar.className = 'real_avatar fadein';
     };
 })
-comicAvatar.addEventListener('click',()=>{
-    comicAvatar.className = 'comic_avatar none';
-    realAvatar.className = 'real_avatar';
-})
+
 
 const clickCarousel = document.querySelector('#click_carousel')
 const carouselPrevBtn = document.querySelector('.carousel-control-prev');
