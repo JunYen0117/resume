@@ -322,10 +322,19 @@ header{
 }
 .collection_area_right>.background{
     width: 90%;
-    height: 90%;
+    height: 350px;
     margin: 0 auto;
     margin-top: 20px;
     background:url("../img/loginsignup_desktop.png");
+    background-size: cover;
+    cursor: pointer;
+}
+.collection_area_right>.background2{
+    width: 90%;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background:url("../img/shopping_mall.png");
     background-size: cover;
     cursor: pointer;
 }
